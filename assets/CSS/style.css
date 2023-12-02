@@ -278,3 +278,120 @@ a {
 .content-block .desc strong:nth-child(2) {
     margin-left: 28px;
 }
+
+/* =================== Courses ===================*/
+
+.courses {
+    margin-top: 200px;
+}
+
+.courses .title {
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.263; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.courses .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    display: inline-block;
+}
+
+.courses .icons {
+    display: flex;
+    margin-left: auto;
+    margin-top: 42px;
+}
+
+.courses .icon-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+}
+
+.courses .icon-items:first-child {
+    background-color: #fff;
+    border: 1px solid var(--primary-color);
+    margin-right: 17px;
+}
+
+.courses .products {
+    margin-top: 55px;
+    gap: 30px;
+}
+
+.products .item {
+    width: 370px;
+}
+
+.products .image {
+    width: 370px;
+    max-width: 100%;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.products .sub-title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+
+.products .info {
+    padding: 22px 16px;
+    border-radius: 12px;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.products .row img {
+    width: 18px;
+    height: 18px;
+    margin-left: auto;
+}
+
+.products .row span {
+    margin-right: 6px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    color: var(--primary-color);
+}
+
+.products .desc {
+    margin-top: 6px;
+    width: 100%;
+}
+
+.products .row-price {
+    margin-top: 12px;
+}
+
+.products .row-price span {
+    color: #171100;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+
+.products .btn-active {
+    background-color: var(--primary-color);
+}
