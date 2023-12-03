@@ -522,7 +522,6 @@ a {
 }
 
 .features .images {
-    width: 49%;
     display: flex;
     gap: 0 30px;
 }
